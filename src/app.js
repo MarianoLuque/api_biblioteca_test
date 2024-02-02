@@ -13,7 +13,6 @@ const autenticacion = auth({
   tokenSigningAlg: "RS256",
 });
 
-
 const app = express();
 app.use(express.json());
 
